@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4063BC481BD164E4009F3DD9 /* RoundRobin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4063BC471BD164E4009F3DD9 /* RoundRobin.cpp */; settings = {ASSET_TAGS = (); }; };
+		409DB3411BCD85FC00DF7F67 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 409DB3401BCD85FC00DF7F67 /* main.cpp */; };
+		409DB34A1BCD87A900DF7F67 /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 409DB3491BCD87A900DF7F67 /* Process.cpp */; settings = {ASSET_TAGS = (); }; };
+		40BE1BDA1BD99E9900E5DD02 /* Proceso.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BE1BD91BD99E9900E5DD02 /* Proceso.cpp */; settings = {ASSET_TAGS = (); }; };
+		40BE1BDE1BD99FB200E5DD02 /* SJF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40BE1BDC1BD99FB200E5DD02 /* SJF.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		409DB33B1BCD85FC00DF7F67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4063BC471BD164E4009F3DD9 /* RoundRobin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoundRobin.cpp; path = "../../../../../../../iCaty/Documents/TEC/QuintoSemestre/SistemasOperativos/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/RoundRobin.cpp"; sourceTree = "<group>"; };
+		409DB33D1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409DB3401BCD85FC00DF7F67 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		409DB3471BCD861700DF7F67 /* RoundRobin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundRobin.h; sourceTree = "<group>"; };
+		409DB3481BCD869F00DF7F67 /* Process.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Process.h; sourceTree = "<group>"; };
+		409DB3491BCD87A900DF7F67 /* Process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Process.cpp; sourceTree = "<group>"; };
+		40BE1BD81BD99E8600E5DD02 /* Proceso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Proceso.h; path = "../../../../../../../iCaty/Documents/TEC/QuintoSemestre/SistemasOperativos/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/Proceso.h"; sourceTree = "<group>"; };
+		40BE1BD91BD99E9900E5DD02 /* Proceso.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Proceso.cpp; path = "../../../../../../../iCaty/Documents/TEC/QuintoSemestre/SistemasOperativos/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/Proceso.cpp"; sourceTree = "<group>"; };
+		40BE1BDB1BD99F9800E5DD02 /* SJF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SJF.h; path = "../../../../../../../iCaty/Documents/TEC/QuintoSemestre/SistemasOperativos/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/SJF.h"; sourceTree = "<group>"; };
+		40BE1BDC1BD99FB200E5DD02 /* SJF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SJF.cpp; path = "../../../../../../../iCaty/Documents/TEC/QuintoSemestre/SistemasOperativos/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6/SJF.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409DB33A1BCD85FC00DF7F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409DB3341BCD85FC00DF7F67 = {
+			isa = PBXGroup;
+			children = (
+				409DB33F1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */,
+				409DB33E1BCD85FC00DF7F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		409DB33E1BCD85FC00DF7F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409DB33D1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409DB33F1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */ = {
+			isa = PBXGroup;
+			children = (
+				409DB3401BCD85FC00DF7F67 /* main.cpp */,
+				409DB3471BCD861700DF7F67 /* RoundRobin.h */,
+				4063BC471BD164E4009F3DD9 /* RoundRobin.cpp */,
+				409DB3481BCD869F00DF7F67 /* Process.h */,
+				409DB3491BCD87A900DF7F67 /* Process.cpp */,
+				40BE1BD81BD99E8600E5DD02 /* Proceso.h */,
+				40BE1BDB1BD99F9800E5DD02 /* SJF.h */,
+				40BE1BDC1BD99FB200E5DD02 /* SJF.cpp */,
+				40BE1BD91BD99E9900E5DD02 /* Proceso.cpp */,
+			);
+			path = "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409DB33C1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409DB3441BCD85FC00DF7F67 /* Build configuration list for PBXNativeTarget "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6" */;
+			buildPhases = (
+				409DB3391BCD85FC00DF7F67 /* Sources */,
+				409DB33A1BCD85FC00DF7F67 /* Frameworks */,
+				409DB33B1BCD85FC00DF7F67 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6";
+			productName = "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6";
+			productReference = 409DB33D1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409DB3351BCD85FC00DF7F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Catalina Peralta";
+				TargetAttributes = {
+					409DB33C1BCD85FC00DF7F67 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 409DB3381BCD85FC00DF7F67 /* Build configuration list for PBXProject "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 409DB3341BCD85FC00DF7F67;
+			productRefGroup = 409DB33E1BCD85FC00DF7F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409DB33C1BCD85FC00DF7F67 /* CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409DB3391BCD85FC00DF7F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BE1BDE1BD99FB200E5DD02 /* SJF.cpp in Sources */,
+				409DB3411BCD85FC00DF7F67 /* main.cpp in Sources */,
+				4063BC481BD164E4009F3DD9 /* RoundRobin.cpp in Sources */,
+				409DB34A1BCD87A900DF7F67 /* Process.cpp in Sources */,
+				40BE1BDA1BD99E9900E5DD02 /* Proceso.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		409DB3421BCD85FC00DF7F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		409DB3431BCD85FC00DF7F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		409DB3451BCD85FC00DF7F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		409DB3461BCD85FC00DF7F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409DB3381BCD85FC00DF7F67 /* Build configuration list for PBXProject "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409DB3421BCD85FC00DF7F67 /* Debug */,
+				409DB3431BCD85FC00DF7F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409DB3441BCD85FC00DF7F67 /* Build configuration list for PBXNativeTarget "CatalinaPeraltaA01021472KrikorBisdikianA01020645-Tarea5-6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409DB3451BCD85FC00DF7F67 /* Debug */,
+				409DB3461BCD85FC00DF7F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409DB3351BCD85FC00DF7F67 /* Project object */;
+}
