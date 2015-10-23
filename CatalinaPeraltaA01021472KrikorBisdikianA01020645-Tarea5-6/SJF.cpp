@@ -12,6 +12,8 @@
 //  Created by Krikor Bisdikian on 10/19/15.
 //  Copyright © 2015 Krikor Bisdikian. All rights reserved.
 //
+//Catalina Peralta A01021472
+//Krikor Bisdikian A01020645
 
 #include "SJF.h"
 #include <iostream>

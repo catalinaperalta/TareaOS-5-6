@@ -5,11 +5,14 @@
 //  Created by iCaty on 10/13/15.
 //  Copyright © 2015 Catalina Peralta. All rights reserved.
 //
+//Catalina Peralta A01021472
+//Krikor Bisdikian A01020645
 
 #include <stdio.h>
 
 #include "Process.h"
 
+//Función para leer el archivo .txt, crear los procesos que lee del archivo y agregar dichos procesos a una lista.
 void Process::getProcess()
 {
     string line;
@@ -54,7 +57,7 @@ Process * Process::setValues(string line)
         Process * p = new Process();
         
         p->process = list[0];
-        p->entryTime = p->nextEntryTime = stof(list[1], 0);
+        p->entryTime = stof(list[1], 0);
         p->duration = p->remainingTime = stof(list[2], 0);
         
         procesos.push_back(p);
@@ -86,16 +89,6 @@ float Process::getEntryTime()
     return entryTime;
 }
 
-void Process::setNextEntryTime(float nextTime)
-{
-    nextEntryTime = nextTime;
-}
-
-float Process::getNextEntryTime()
-{
-    return nextEntryTime;
-}
-
 void Process::setWaitTime(float wait)
 {
     waitTime = wait;
@@ -114,4 +107,19 @@ void Process::setRemainingTime(float remain)
 float Process::getRemainingTime()
 {
     return remainingTime;
+}
+
+string Process::getName()
+{
+    return process;
+}
+
+void Process::setWaitTime(int time)
+{
+    waitTime = time;
+}
+
+vector<Process*> Process::getList()
+{
+    return procesos;
 }

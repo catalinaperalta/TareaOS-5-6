@@ -5,6 +5,8 @@
 //  Created by iCaty on 10/13/15.
 //  Copyright © 2015 Catalina Peralta. All rights reserved.
 //
+//Catalina Peralta A01021472
+//Krikor Bisdikian A01020645
 
 #ifndef RoundRobin_h
 #define RoundRobin_h
@@ -22,18 +24,7 @@ class RoundRobin
 public:
     void roundRobin(vector<Process*> list);
     void fillQueue(vector<Process*> list);
-    
-    bool compFloat(float a, float b)
-    {
-        if (fabs(a-b) < 1e-1)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+    bool compFloat(float a, float b);
 };
 
 #endif /* RoundRobin_h */
